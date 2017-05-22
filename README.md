@@ -152,8 +152,7 @@ After running `rake db:migrate` it will add the table to the database schema. Le
 Author.all
 => #<ActiveRecord::Relation []>
 
-Author.create!(name: "Stephen King", genre: "Horror", bio: "Bio details go here")
-=> #<Author id: 1, name: "Stephen King", genre: "Horror", bio: "Bio details go here", created_at: "2015-11-27 22:59:14", updated_at: "2015-11-27 22:59:14">
+gvb n=> #<Author id: 1, name: "Stephen King", genre: "Horror", bio: "Bio details go here", created_at: "2015-11-27 22:59:14", updated_at: "2015-11-27 22:59:14">
 ```
 
 So it looks like our model has been created properly. As you can see, this particular generator created a few different pieces of functionality with a single command and it did it with creating minimal code bloat.
